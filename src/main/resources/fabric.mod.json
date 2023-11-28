@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "among_plush",
+  "version": "${version}",
+  "name": "AmongPlushMod",
+  "description": "Among Plush Mod :C",
+  "authors": [
+    "BigVirusBoi"
+  ],
+  "contact": {
+    "repo": "https://github.com/BigVirusBoi/AmongPlushMod"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/among_plush/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.bigvirusboi.among_plush.client.AmongPlushModClient"
+    ],
+    "main": [
+      "me.bigvirusboi.among_plush.AmongPlushMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
