@@ -11,12 +11,8 @@
     "repo": "https://github.com/BigVirusBoi/AmongPlushMod"
   },
   "license": "GPL-3.0",
-  "icon": "assets/among_plush/icon.png",
   "environment": "*",
   "entrypoints": {
-    "client": [
-      "me.bigvirusboi.among_plush.client.AmongPlushModClient"
-    ],
     "main": [
       "me.bigvirusboi.among_plush.AmongPlushMod"
     ]
